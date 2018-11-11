@@ -1,3 +1,4 @@
+setopt correct
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/home/loki/.local/bin:$PATH
@@ -70,7 +71,6 @@ plugins=(
   git
   autopep8
 )
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
