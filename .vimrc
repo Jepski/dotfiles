@@ -1,3 +1,4 @@
+set shell=/bin/bash
 set number
 set relativenumber
 set encoding=utf-8
@@ -37,6 +38,9 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'kh3phr3n/python-syntax'
 Plugin 'fisadev/vim-isort'
 Plugin 'tell-k/vim-autopep8'
+Plugin 'lifepillar/vim-solarized8'
+Plugin 'vim-airline/vim-airline'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -65,7 +69,7 @@ nmap <F8> :TagbarToggle<CR>
 
 " Color scheme
 set background=dark
-colorscheme solarized
+colorscheme solarized8
 
 " VIM window splitting
 set splitbelow
